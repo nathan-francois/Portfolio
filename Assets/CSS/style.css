@@ -1,0 +1,64 @@
+* {
+    box-sizing: unset;
+}
+
+/******************************************* NAVBAR *******************************************/
+/************ TAILLE ************/
+.container {
+    max-width: 100%;
+    padding-right: 50px;
+}
+
+/************ COULEUR ************/
+.bg-dark {
+    background-color: rgba(8, 8, 8, 0.959) !important;
+    font-size: 1em !important;
+    font-weight: 400 !important;
+}
+.bg-light {
+    background-color: rgb(253, 253, 253) !important;
+    font-size: 1em !important;
+    font-weight: 400 !important;
+}
+
+/************ NATHAN FRANCOIS ************/
+.nom {
+    text-decoration: none!important;
+    font-weight: 500;
+    font-family: Arial, Helvetica, "Liberation Sans", "FreeSans", sans-serif;
+}
+.nomDark {
+    color: white;
+}
+.nomLight {
+    color: black;
+}
+
+/************ MEDIA QUERIES ************/
+@media screen and (min-width: 992px) {
+    #navContact {
+        background-color: rgba(0, 0, 0, 0) !important;
+        font-size: 1em !important;
+        font-weight: 400 !important;
+    }
+    #nomMobile {
+        display: none;
+    }
+    .nom {
+        font-size: 1.3em;
+    }
+}
+@media screen and (max-width: 991px) {
+    #navContact {
+        background-color: rgb(255, 255, 255) !important;
+        font-size: 1em !important;
+        font-weight: 400 !important;
+
+    }
+    #nomDesktop {
+        display: none;
+    }
+    .nom {
+        font-size: 1em;
+    }
+}

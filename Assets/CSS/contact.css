@@ -1,0 +1,130 @@
+/******************************************* FORMULAIRE DE CONTACT *******************************************/
+/***************** GENERAL *****************/
+#coordonnee, #formulaireContact {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+#pageContact {
+    margin-left: -10px;
+}
+#rowContact {
+    height: 100vh;
+}
+
+/***************** FORMULAIRE *****************/
+#formulaireContact h2
+{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 300;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, "Liberation Sans", "FreeSans", sans-serif;
+}
+#parentContact {
+    display: flex !important;
+    justify-content: center !important;
+    font-family: Arial, Helvetica, "Liberation Sans", "FreeSans", sans-serif;
+}
+#formulaireContact {
+    padding-top: 150px;
+}
+label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    width: 40vh;
+}
+input {
+    width: 100%;
+    height: 30px;
+}
+textarea {
+    width: 100%;
+    height: 100px;
+    max-height: 200px;
+}
+form button {
+    margin: 10px auto;
+    display: block !important;
+    background-color: black !important;
+    height: 30px;
+    width: 90px;
+    font-size: 1.2em!important;
+    margin-bottom: 50px;
+}
+
+
+/***************** COORDONNEE *****************/
+#coordonnee {
+    background-color: rgb(12, 12, 12);
+    font-size: 1em;
+    font-family: Arial, Helvetica, "Liberation Sans", "FreeSans", sans-serif;
+}
+#coordonnee h2 {
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 150px;
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, "Liberation Sans", "FreeSans", sans-serif;
+}
+#coordonnee {
+    text-align: center;
+    color: white;
+}
+#coordonnee p {
+    padding-top: 30px;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+#coordonnee #monMail {
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
+#coordonnee div {
+    margin-bottom: 20px;
+}
+#infoCoordonnee {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#infoCoordonnee h3 {
+    font-size: 1.4em;
+    font-weight: 600;
+}
+#infoCoordonnee img {
+    margin-top: 15px;
+    box-sizing: border-box;
+    height: 60px;
+    margin-bottom: 50px;
+}
+
+/******************************************* MEDIA QUERIES *******************************************/
+@media screen and (max-width: 992px) {
+    html, body  {
+        overflow-y: initial;
+        overflow-x: hidden;
+    }
+    #infoCoordonnee {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    h2 {
+        font-size: 1.8em !important;
+    }
+    #coordonnee h2 {
+        padding-top: 0px;
+    }
+    #formulaireContact {
+        padding-top: 80px;
+    }
+    #formulaireContact h2 {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (min-width: 992px) {
+    html, body  {
+        overflow-y: hidden;
+    }
+}
