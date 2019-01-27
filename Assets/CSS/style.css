@@ -1,17 +1,24 @@
 * {
-    box-sizing: unset;
+    box-sizing: border-box;
 }
 
+/**********************************************************************************************/
 /******************************************* NAVBAR *******************************************/
-/************ TAILLE ************/
-.container {
-    max-width: 100%;
-    padding-right: 50px;
-}
+/**********************************************************************************************/
 
+/************ TAILLE ************/
+.navbar .container {
+    max-width: 100%;
+    font-family: Arial, Helvetica, "Liberation Sans", "FreeSans", sans-serif;
+}
+.navbar .logoWD {
+    
+    font-weight: 900;
+    font-size: 1.8em;
+}
 /************ COULEUR ************/
 .bg-dark {
-    background-color: rgba(8, 8, 8, 0.959) !important;
+    background-color: rgba(12, 12, 12, 0.959) !important;
     font-size: 1em !important;
     font-weight: 400 !important;
 }
@@ -34,8 +41,11 @@
     color: black;
 }
 
+/***************************************/
 /************ MEDIA QUERIES ************/
+/***************************************/
 @media screen and (min-width: 992px) {
+
     #navContact {
         background-color: rgba(0, 0, 0, 0) !important;
         font-size: 1em !important;
@@ -49,6 +59,7 @@
     }
 }
 @media screen and (max-width: 991px) {
+
     #navContact {
         background-color: rgb(255, 255, 255) !important;
         font-size: 1em !important;

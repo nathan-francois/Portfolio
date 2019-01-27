@@ -1,0 +1,12 @@
+{
+    "name": "franc/web",
+    "authors": [
+        {
+            "name": "JauneLoke",
+            "email": "jaune.loke@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "2.0"
+    }
+}

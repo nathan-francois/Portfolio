@@ -1,5 +1,12 @@
 <?php
 
+// Chargement de Twig
+require "chargementTwig.php";
+
+// On charge le fichier voulus du dossier Views 
+$template = $twig->load('contact.twig');
+
+
 if (isset($_POST['message'])) {
     $email_destinataire = "francois.nathan0@gmail.com";
     $sujetMail = "OFFRE EMPLOI PORTFOLIO";
@@ -21,14 +28,15 @@ if (isset($_POST['message'])) {
         $email = mail($email_destinataire, $sujetMail, $mailText);
         
         if($email){
-            echo 'Votre message a été envoyé';
+
+            // On envois au fichier les données via Twig
+            echo $template->render(array("reponse" => 'Votre message à été envoyé'));  
         }
         else {
-            echo 'Erreur';
+            // On envois au fichier les données via Twig
+            echo $template->render(array("reponse" => 'Erreur'));  
         }
-
     }
 }
 
-
-include('Views/contactView.php');
+echo $template->render(array(""));  
