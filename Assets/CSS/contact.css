@@ -72,16 +72,12 @@ form button {
     font-size: 1em;
     font-family: Arial, Helvetica, "Liberation Sans", "FreeSans", sans-serif;
 }
-#coordonnee h2 {
-    text-align: center;
-    margin-bottom: 120px;
-    padding-top: 15px;
-    font-size: 1.6em;
-    font-family: Arial, Helvetica, "Liberation Sans", "FreeSans", sans-serif;
-}
 #coordonnee {
     text-align: center;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 #coordonnee p {
     padding-top: 30px;
@@ -93,18 +89,13 @@ form button {
     margin-bottom: 50px;
 }
 #coordonnee div {
-    margin-bottom: 20px;
+    padding: 20px 0;
 }
-#infoCoordonnee {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-#infoCoordonnee h3 {
+#coordonnee h3 {
     font-size: 1.4em;
     font-weight: 600;
 }
-#infoCoordonnee img {
+#coordonnee img {
     margin-top: 15px;
     box-sizing: border-box;
     height: 60px;
@@ -123,14 +114,15 @@ form button {
     h2 {
         font-size: 1.8em !important;
     }
-    #coordonnee h2 {
-        padding-top: 0px;
-    }
     #formulaireContact {
-        padding-top: 80px;
+        padding-top: 100px;
+        padding-bottom: 80px;
     }
     #formulaireContact h2 {
-        margin-bottom: 10px;
+        margin-bottom: 40px;
+    }
+    #infoCoordonnee {
+        padding-top: 80px;
     }
 }
 @media screen and (min-width: 992px) {

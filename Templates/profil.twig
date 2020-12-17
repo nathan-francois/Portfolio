@@ -8,11 +8,11 @@
 
 {% block header %}
     <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
-  
+
   		<div class="container">
 
 			<!-- <a class="navbar-brand" href="home"><img src="Assets/Images/logonfnoir.png" alt="logoNF" width="50px"></a> -->
-			<a class="navbar-brand logoWD" href="home">WD</a>
+			<a class="navbar-brand logoWD" href="home">NF</a>
 
 			<!-- <a class="nom nomLight" id="nomMobile" href="home">Titre Nav Responsive</a> -->
 
@@ -50,10 +50,108 @@
 
 {% block main %}
 
-	<section id="pageProfil">
-		{# {% for utilisateur in utilisateurs2 %}
-			{{ utilisateur.nom }}
-		{% endfor %} #}
-	</section>
-	
+
+
+<div class="container-fluid">
+	<div class="row">
+
+		<div class="col-0 col-sm-0 col-md-0 col-lg-2 col-xl-2">
+			<div id="bordureGauche"></div>
+		</div>
+
+		<div id="sectionProfil" class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+			<div id="sectionCompetences">
+				<h2>Mes compétences</h2>
+				<div class="competences">
+					<div class="cadre">
+						<a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language">
+							<img src="Assets/Images/Logos/html5.png" alt="html5">
+						</a>
+						<p>HTML/CSS</p>
+					</div>
+					<div class="cadre">
+						<a href="https://fr.wikipedia.org/wiki/PHP">
+							<img src="Assets/Images/Logos/php.png" alt="PHP">
+						</a>
+						<p>PHP</p>
+					</div>
+					<div class="cadre">
+						<a href="https://fr.wikipedia.org/wiki/JavaScript">
+							<img src="Assets/Images/Logos/js.png" alt="JavaScript">
+						</a>
+						<p>JavaScript</p>
+					</div>
+					<div class="cadre">
+						<a href="https://fr.wikipedia.org/wiki/Symfony">
+							<img src="Assets/Images/Logos/symfony.png" alt="Symfony">
+						</a>
+						<p>Symfony</p>
+					</div>
+					<div class="cadre">
+						<a href="https://fr.wikipedia.org/wiki/Bootstrap_(framework)">
+							<img src="Assets/Images/Logos/bootstrap.png" alt="Bootstrap">
+						</a>
+						<p>Bootstrap</p>
+					</div>
+					<div class="cadre">
+						<a href="https://fr.wikipedia.org/wiki/WordPress">
+							<img src="Assets/Images/Logos/wordpress.png" alt="WordPress">
+						</a>
+						<p>WordPress</p>
+					</div>
+				</div> {# Div competences #}
+			</div>	{# Div Section competences #}
+
+			<div id="sectionTechologies">
+				<h2>Technologies</h2>
+				<div class="competences">
+					<div class="cadre">
+						<a href="https://fr.wikipedia.org/wiki/Linux">
+							<img src="Assets/Images/Logos/linux.png" alt="Linux">
+						</a>
+						<p>Linux</p>
+					</div>
+					<div class="cadre">
+						<a href="https://fr.wikipedia.org/wiki/Git">
+							<img src="Assets/Images/logoGitBlack.png" alt="Git">	
+						</a>
+						<p>Git</p>
+					</div>
+					<div class="cadre">
+						<a href="https://fr.wikipedia.org/wiki/Npm">
+							<img src="Assets/Images/Logos/npm.png" alt="NPM" style='padding-bottom: 10px; padding-top: 10px;'>
+						</a>
+						<p>NPM</p>
+					</div>
+					<div class="cadre">
+						<a href="https://en.wikipedia.org/wiki/Webpack">
+							<img src="Assets/Images/Logos/webpack.png" alt="Webpack">
+						</a>
+						<p>Webpack</p>
+					</div>
+					<div class="cadre">
+						<a href="https://fr.wikipedia.org/wiki/Apache_HTTP_Server">
+							<img src="Assets/Images/Logos/apache.png" alt="Apache">
+						</a>
+						<p>Apache</p>
+					</div>
+					<div class="cadre">
+						<a href="https://fr.wikipedia.org/wiki/MySQL">
+							<img src="Assets/Images/Logos/mysql.png" alt="MySQL">
+						</a>
+						<p>SQL</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-0 col-sm-0 col-md-0 col-lg-2 col-xl-2">
+			<div id="bordureDroite"></div>
+		</div>
+
+	</div> {# Div Row #}
+</div> {# Div Container #}
+
+{# Pics from Pixabay #}
+
 {% endblock main %}

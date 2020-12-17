@@ -1,0 +1,38 @@
+"1","We Transfer","Créer un service similaire à wetransfer.com
+
+Une page avec un formulaire :
+- Choisissez le fichier (upload en HTML5)
+- Email du destinataire
+- Bouton envoyer
+
+Une page intermédiaire :
+- Enregistre les informations dans une base de données
+- Enregistre le fichier dans un répertoire
+- Envoi par mail le lien vers la page de téléchargement du fichier
+
+Une page de résultat :
+- message de réussite
+- lien vers la page à copier/coller
+
+Une page permettant depuis l'ID enregistré dans la base de données, d’accéder au téléchargement du fichier.","https://github.com/JauneLoke/WeTransfer","https://web-developpement.eu/MesProjets/WeTransfer/index.php","Durée du Projet : 4 Jours",NULL,"Assets/Images/ApercuProjets/RetM/RetM01.png","Assets/Images/ApercuProjets/RetM/RetM02.png","Assets/Images/ApercuProjets/RetM/RetM03.png","Assets/Images/ApercuProjets/RetM/RetM04.png"
+"2","Space invaders","Reproduction du grand classic des jeux rétro, le Space Invaders!
+
+Le jeu à été réalisé uniquement en JavaScript après avoir découvert ce language 2 jours avant.
+
+Les éléments constituant le jeu :
+- Une vague d'enemis destructibles
+- Possibilitée de tirer et déplacer le vaisseau latéralement
+- Condition de victoire, défaite
+- Un écran d'accueil","https://github.com/JauneLoke/Space-Invaders","https://web-developpement.eu/MesProjets/Space-Invaders/main.html","Durée du Projet : 3 Jours",NULL,"Assets/Images/ApercuProjets/SpaceInvaders/spaceInvader01.png","Assets/Images/ApercuProjets/SpaceInvaders/spaceInvader02.png","Assets/Images/ApercuProjets/SpaceInvaders/spaceInvader03.png","Assets/Images/ApercuProjets/SpaceInvaders/spaceInvader04.png"
+"3","Annuaire de films","Ce projet est un exercice réalisé en formation sur une durée de cinq jours en décembre 2018.
+
+L'objectif est de coder un annuaire de films de type ""Allociné"", sur lequel figurent neuf films de base.
+
+Conception du site :
+- Conception du site en utilisant le MVC
+- Création d'un MCD (Modèle Conceptuel des Données)
+- Intégration des infos dans la Base de données
+- Utilisation de tables liaisons qui permettent de lier plusieurs films à plusieurs genres
+- Intégration d'un fichier .htaccess à la racine
+- Création des views Responsive avec un design identitaire","https://github.com/JauneLoke/Cinematheque",NULL,"Durée du Projet : 5 Jours",NULL,"Assets/Images/ApercuProjets/Cinematheque/cinematheque04.png","Assets/Images/ApercuProjets/Cinematheque/cinematheque02.png","Assets/Images/ApercuProjets/Cinematheque/cinematheque03.png","Assets/Images/ApercuProjets/Cinematheque/cinematheque01.png"
+"4","1234","$2y$10$mOgYxiU/jZzFtB9CXpYw2OjHKTMVRONcpi72MwUsDKw2Wa8D6lm3e",NULL,NULL
